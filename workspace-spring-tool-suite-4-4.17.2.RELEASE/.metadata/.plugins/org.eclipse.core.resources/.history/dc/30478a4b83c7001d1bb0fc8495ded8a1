@@ -1,0 +1,14 @@
+package com.algaworks.algalog.api.model;
+
+import java.time.OffsetDateTime;
+
+import com.algaworks.algalog.domain.model.Entrega;
+
+public class Ocorrencia {
+
+	private Long id;
+	private Entrega entrega;
+	private String descricao;
+	private OffsetDateTime dataRegistro;
+	
+}

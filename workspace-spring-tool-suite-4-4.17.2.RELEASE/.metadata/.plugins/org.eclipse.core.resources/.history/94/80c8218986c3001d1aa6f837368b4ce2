@@ -1,0 +1,5 @@
+spring.datasource.dbcp2.url=jdbc:mysql://127.0.0.1:3306/algalog?createDatabaseIfNotExist=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=
+
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
